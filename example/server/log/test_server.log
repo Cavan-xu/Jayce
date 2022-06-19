@@ -1,0 +1,11 @@
+{"level":"INFO","ts":"2021-11-29T23:43:35.724+0800","caller":"server/main.go:29","msg":"tcp new server start..."}
+{"level":"INFO","ts":"2021-11-29T23:47:49.521+0800","caller":"server/main.go:29","msg":"tcp new server start..."}
+{"level":"INFO","ts":"2021-11-29T23:50:31.028+0800","caller":"server/main.go:29","msg":"tcp new server start..."}
+{"level":"ERROR","ts":"2021-11-29T23:50:31.028+0800","caller":"tcp/server.go:92","msg":"start tcp server err","error":"address 127.0.0.18090: missing port in address"}
+{"level":"INFO","ts":"2021-11-29T23:51:28.233+0800","caller":"server/main.go:29","msg":"tcp new server start..."}
+{"level":"INFO","ts":"2021-11-29T23:51:28.234+0800","caller":"tcp/server.go:63","msg":"start listen tcp server..","ip":"127.0.0.1","port":8090}
+{"level":"INFO","ts":"2021-11-29T23:51:36.290+0800","caller":"tcp/server.go:74","msg":"accept a tcp connection from","address":"127.0.0.1:34126"}
+{"level":"INFO","ts":"2021-11-30T10:14:01.847+0800","caller":"server/main.go:38","msg":"tcp new server start..."}
+{"level":"INFO","ts":"2021-11-30T10:14:01.856+0800","caller":"tcp/server.go:64","msg":"start listen tcp server..","ip":"127.0.0.1","port":8090}
+{"level":"INFO","ts":"2021-11-30T10:20:33.103+0800","caller":"server/main.go:34","msg":"tcp new server start..."}
+{"level":"INFO","ts":"2021-11-30T10:20:33.113+0800","caller":"tcp/server.go:64","msg":"start listen tcp server..","ip":"127.0.0.1","port":8090}

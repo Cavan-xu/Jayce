@@ -1,0 +1,15 @@
+{
+  "ip": "127.0.0.1",
+  "port": 8090,
+  "server_name": "test_server",
+  "network": "tcp4",
+  "read_buffer": 1024,
+  "write_buffer": 1024,
+  "log": {
+    "file_name": "./log/test_server.log",
+    "max_size": 1,
+    "max_backups": 5,
+    "max_ages": 30,
+    "compress": false
+  }
+}
