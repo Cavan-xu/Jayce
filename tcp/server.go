@@ -87,10 +87,10 @@ func (s *server) Stop() {
 
 }
 
-func (s *server) Server() {
+func (s *server) Server() error {
 	if err := s.start(); err != nil {
 		s.Logger.Error("start tcp server err", zap.Error(err))
-		return
+		return err
 	}
 
 	// block
